@@ -1,0 +1,96 @@
+[0m17:14:27.595650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3A3169D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3A2A8450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3A2F62D0>]}
+
+
+============================== 17:14:27.609594 | 20467389-6684-43da-9529-d7457fe5ef21 ==============================
+[0m17:14:27.609594 [info ] [MainThread]: Running with dbt=1.7.17
+[0m17:14:27.612596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\swaro\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init sql_demo', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:27.616596 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/swaro/.dbt')}
+[0m17:14:27.617605 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:14:27.621633 [debug] [MainThread]: Starter project path: C:\Users\swaro\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m17:14:27.741619 [info ] [MainThread]: 
+Your new dbt project "sql_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:14:27.744666 [info ] [MainThread]: Setting up your profile.
+[0m17:14:51.567809 [info ] [MainThread]: No sample profile found for fabric.
+[0m17:14:51.571850 [debug] [MainThread]: Command `dbt init` succeeded at 17:14:51.570802 after 24.33 seconds
+[0m17:14:51.572810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3A2AB650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E3A0D82D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E36E42790>]}
+[0m17:14:51.573858 [debug] [MainThread]: Flushing usage events
+[0m20:24:21.250927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E551DD8FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E551FE6BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E551FECD50>]}
+
+
+============================== 20:24:21.264444 | 8e0a648d-9eb1-49da-a66a-4c693e2aa749 ==============================
+[0m20:24:21.264444 [info ] [MainThread]: Running with dbt=1.7.17
+[0m20:24:21.267446 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\swaro\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init sql_demo', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:24:21.272448 [info ] [MainThread]: A project called sql_demo already exists here.
+[0m20:24:21.278447 [debug] [MainThread]: Command `dbt init` succeeded at 20:24:21.277445 after 0.22 seconds
+[0m20:24:21.280446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54B317AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54B317E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E550C56B10>]}
+[0m20:24:21.281448 [debug] [MainThread]: Flushing usage events
+[0m20:28:00.575519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBB476810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBB248B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBB461250>]}
+
+
+============================== 20:28:00.575519 | 764e4472-c372-4986-a5dd-c183b9e281bd ==============================
+[0m20:28:00.575519 [info ] [MainThread]: Running with dbt=1.7.17
+[0m20:28:00.575519 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\swaro\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init demo_sql', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:00.575519 [debug] [MainThread]: Starter project path: C:\Users\swaro\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m20:28:00.609992 [info ] [MainThread]: 
+Your new dbt project "demo_sql" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:28:00.623949 [info ] [MainThread]: Setting up your profile.
+[0m20:28:07.698879 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m20:28:07.698879 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:07.698879 after 7.22 seconds
+[0m20:28:07.698879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEBB40B450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB4557BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB4764550>]}
+[0m20:28:07.698879 [debug] [MainThread]: Flushing usage events
+[0m21:02:51.744659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EABDECD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EABC7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EABDEE50>]}
+
+
+============================== 21:02:51.744659 | 219b5e3f-5247-445f-b230-f2b644f4aba0 ==============================
+[0m21:02:51.744659 [info ] [MainThread]: Running with dbt=1.7.17
+[0m21:02:51.744659 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\swaro\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init sql_demo', 'send_anonymous_usage_stats': 'True'}
+[0m21:02:51.744659 [debug] [MainThread]: Starter project path: C:\Users\swaro\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m21:02:51.779457 [info ] [MainThread]: 
+Your new dbt project "sql_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:02:51.786181 [info ] [MainThread]: Setting up your profile.
+[0m21:02:57.009820 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m21:02:57.009820 [debug] [MainThread]: Command `dbt init` succeeded at 21:02:57.009820 after 5.36 seconds
+[0m21:02:57.025465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EABDFB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EAB7B7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251EA9A8890>]}
+[0m21:02:57.025465 [debug] [MainThread]: Flushing usage events
