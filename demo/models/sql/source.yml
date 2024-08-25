@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: source
+    database: AdventureWorks2022  
+    schema: HumanResources  
+    tables:
+      - name: EmployeePayHistory
+      - name: Employee
