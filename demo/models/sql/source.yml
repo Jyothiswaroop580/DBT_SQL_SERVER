@@ -8,3 +8,10 @@ sources:
       - name: EmployeePayHistory
       - name: Employee
       - name: JobCandidate
+demo:
+  sql:
+    sql_file:
+      # materialize all models in models/events as tables
+      +materialized: table
+    base_source_EmployeePayHistory:
+      +materialized: table
