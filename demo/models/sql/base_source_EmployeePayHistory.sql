@@ -1,4 +1,4 @@
-with source as (
+/*with source as (
       select * from {{ source('source', 'EmployeePayHistory') }}
 ),
 renamed as (
@@ -11,5 +11,7 @@ renamed as (
 
     from source
 )
-select * from renamed
+select * from renamed*/
+
+select * from {{ ref('sql','sql_file') }}
   

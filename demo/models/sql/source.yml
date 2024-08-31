@@ -7,3 +7,4 @@ sources:
     tables:
       - name: EmployeePayHistory
       - name: Employee
+      - name: JobCandidate
